@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import torch, torchvision, timm, sklearn, seaborn; print\\('OK'\\)\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3 lab8.py)",
+      "Bash(kill 51372)",
+      "Bash(kill 60049)",
+      "Bash(grep -E \"\\\\.\\(py|ipynb\\)$\")",
+      "Bash(grep -r \"python-docx\\\\|from docx\\\\|import docx\" /Users/mykytatishkin/Documents/GitHub/data-mining-labs/pw*/lab*.py)",
+      "Bash(ls:*)",
+      "Bash(python3 generate_report.py)",
+      "Bash(python3:*)"
+    ]
+  }
+}
